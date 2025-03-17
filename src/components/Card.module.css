@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+/* Card */
+.card {
+    font-family: 'Outfit', sans-serif;
+    color: var(--white);
+    background-color: var(--card-dark);
+    max-width: 320px;
+    padding: 1.3rem 1.20rem;
+    border-radius: 14px;
+    color: var(--primary-font);
+  }
+  
+  /* Imagem e Overlay */
+  .card_image_wrapper {
+    position: relative;
+  }
+  
+  .card_image {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-color: rgba(0, 255, 247, 0);
+    border-radius: 8px;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .card_overlay:hover {
+    opacity: 1;
+    background-color: rgba(0, 255, 247, 0.4);
+    cursor: pointer;
+  }
+  
+  /* Conteúdo */
+  .card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 16px;
+  }
+  
+  .card_title {
+    font-weight: 600;
+    font-size: 1.55rem;
+    color: var(--white);
+  }
+  
+  .card_title:hover {
+    color: var(--cyan);
+    cursor: pointer;
+  }
+  
+  .card_description {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  /* Informações */
+  .card_info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .card_info_item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 24px;
+  }
+  .info_ETH {
+    font-weight: 500;
+    color: var(--cyan);
+  }
+  .info_DATE {
+    font-weight: 300;
+  }
+  
+  /* Footer */
+  .card_author {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line-dark);
+    font-weight: 300;
+  }
+  
+  .card_author img {
+    width: 15%;
+    border-radius: 50%;
+  }
+  
+  .card_author span {
+    color: var(--white);
+  }
+  .card_author span:hover {
+    cursor: pointer;
+    color: var(--cyan);
+  }
