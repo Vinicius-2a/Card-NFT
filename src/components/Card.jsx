@@ -2,7 +2,7 @@ import styles from './Card.module.css';
 import image_equilibrium from '../assets/image-equilibrium.jpg'
 import image_overlay from '../assets/icon-view.svg'
 import image_ETH from '../assets/icon-ethereum.svg'
-import image_DATE from '../assets/icon-ethereum.svg'
+import image_DATE from '../assets/icon-clock.svg'
 import image_Author from '../assets/image-avatar.jfif'
 
 
